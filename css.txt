@@ -85,3 +85,13 @@ body {
     flex: 1 1 calc(25% - 20px);
   }
 }
+
+/* Para pantallas muy grandes */
+@media (min-width: 1200px) {
+  .tarjeta {
+    flex: 1 1 calc(20% - 20px);  /* 5 tarjetas por fila */
+  }
+  .contenedor {
+    padding: 40px;
+  }
+}
